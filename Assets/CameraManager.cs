@@ -6,6 +6,7 @@ using UnityEngine;
 public class CameraManager : MonoBehaviour
 {
     public Camera mainCamera;
+    public GameObject orbitViewCube;
     public float rotationSpeed = 8f;
 
     public Terrain terrain;
@@ -43,6 +44,7 @@ public class CameraManager : MonoBehaviour
 
             var angle = new Vector3(transform.eulerAngles.x + yRotation, transform.eulerAngles.y + xRotation, 0);
             transform.SetPositionAndRotation(transform.position, Quaternion.Euler(angle.x, angle.y, 0));
+            orbitViewCube.transform.SetPositionAndRotation(orbitViewCube.transform.position, Quaternion.Euler(angle.x, angle.y, 0));
         }
     }
 
