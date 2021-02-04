@@ -1,7 +1,7 @@
 # **Trackball Camera** + **Cube View** for Unity projects
 
-This is an example project about the creation of a Trackball Camera for Unity projects and a Cube View associeted to it.
+A Unity example project about the creation of a Trackball Camera with a View Cube associated.
 
-![Game image](./game_image.png)
+![Game image](./final.gif)
 
-This kind of Camera it's perfect for CAD style projects.
+This kind of Camera it's suitable for CAD projects.
